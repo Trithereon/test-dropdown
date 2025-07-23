@@ -1,5 +1,8 @@
-import "./styles.css";
 import "modern-normalize/modern-normalize.css";
-import EventHandler from "./events.js";
+import Dropdown from "@trithereon/dropdown";
 
-EventHandler.init();
+document.querySelectorAll(".dropdown").forEach((dropdownContainer) => {
+  new Dropdown(dropdownContainer);
+});
+
+export default Dropdown;
