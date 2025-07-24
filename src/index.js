@@ -4,5 +4,3 @@ import Dropdown from "@trithereon/dropdown";
 document.querySelectorAll(".dropdown").forEach((dropdownContainer) => {
   new Dropdown(dropdownContainer);
 });
-
-export default Dropdown;

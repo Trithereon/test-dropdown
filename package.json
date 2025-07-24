@@ -37,7 +37,7 @@
     "webpack-merge": "^6.0.1"
   },
   "dependencies": {
-    "@trithereon/dropdown": "^1.0.2",
+    "@trithereon/dropdown": "^1.0.4",
     "date-fns": "^4.1.0",
     "modern-normalize": "^3.0.1"
   }
